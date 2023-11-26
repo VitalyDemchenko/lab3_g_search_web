@@ -1,0 +1,103 @@
+<!-- Повідомляємо браузеру, як варто обробляти цю сторінку. -->
+<!DOCTYPE html>
+<!--Оболонка документа, вказуємо мову вмісту -->
+<html lang="ua">
+<!-- Заголовок сторінки, контейнер для інших важливих даних (не відображається) -->
+
+<head>
+    <!--Заголовок сторінки у браузері -->
+    <title>Google search Демченко</title>
+    <!-- Підключаєм CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Кодування  сторінки -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Тіло сторінки, що відображається -->
+
+<body class="body">
+    <!-- <img src="img/foto.png" alt=""> -->
+
+    <header class="header">
+
+        <div class="headerright">
+            <span class="textheaderright"> ПОШУК ЗОБРАЖЕНЬ</span>
+        </div>
+        <div class="headerleft">
+            <a href="index.html">
+                <div class="headerelem">
+                    <span class="textheader"> ПОШУК </span>
+                    <br>
+                    <span class="textheader"> GOOGLE</span>
+                </div>
+            </a>
+
+            <a href="image_search.html">
+                <div class="headerelem">
+
+                    <span class="textheader"> ПОШУК </span>
+                    <br>
+                    <span class="textheader"> ЗОБРАЖЕНЬ</span>
+                </div>
+            </a>
+            <a href="extended_search.html">
+                <div class="headerelem">
+                    <span class="textheader"> РОЗШИРЕНИЙ </span>
+                    <br>
+                    <span class="textheader"> ПОШУК</span>
+                </div>
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+
+
+        <div class="centerblocktop2"> <img src="img/google.jpg" alt="" class="img2"></div>
+
+        <form action="https://www.google.com/search" class="search-container">
+            <label for="searchInput"> </label>
+            <br>
+            <input type="text" name="q" id="searchInput" class="search-input" placeholder="Введіть ваш запит" required>
+            <input type="hidden" name="tbm" value="isch"> <!-- Додаємо параметр isch для пошуку зображень -->
+            <input type="submit" value="Пошук Google" id="searchButton" class="search-button">
+        </form>
+
+        <!-- <div class="search-container">
+            <input id="searchInput" type="text" class="search-input" placeholder="Введіть ваш запит">
+            <button id="searchButton" class="search-button">Пошук Google</button>
+        </div>
+
+        <script>
+            document.getElementById("searchButton").addEventListener("click", function () {
+
+                var searchTerm = document.getElementById("searchInput").value;
+
+                alert("Ви шукаєте: " + searchTerm);
+            });
+        </script> -->
+
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+}
+
+
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-container input {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.search-container button {
+    margin-left: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a0dab;
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0e086b;
+    /* Змінено колір при наведенні */
+}
+
+/* Змінено вигляд курсора на "рука" при наведенні */
+.search-container button:hover,
+.search-container button:focus {
+    cursor: pointer;
+}
+
+/* .body {
+
+
+
+
+} */
+
+/* .main {} */
+
+.header {
+
+    height: 200px;
+    width: 1900px;
+    background-color: rgb(0, 162, 255);
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerleft {
+
+    width: 600px;
+    height: 200px;
+    display: flex;
+
+
+    background-color: aquamarine;
+}
+
+.headerright {
+
+    width: 700px;
+    height: 200px;
+    display: flex;
+
+    background-color: rgb(0, 120, 233);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.textheaderright {
+
+    margin-left: 6px;
+    display: block;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+
+
+
+.headerelem {
+
+    width: 200px;
+    height: 200px;
+    border: solid 1px rgb(0, 98, 155);
+    background-color: rgb(0, 120, 233);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.headerelem:hover {
+
+    background-color: rgb(105, 183, 255);
+    color: rgb(16, 42, 187);
+}
+
+.textheader {
+
+    margin-left: 6px;
+    display: block;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+
+
+
+/* extended */
+
+
+
+.advanced-search {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lucky-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+.bodys1 {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    /* text-align: center; */
+}
+
+.h1s1 {
+    color: #4285f4;
+}
+
+/* .inputs1 {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: left;
+} */
+
+.inputs1 {
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+    text-align: left;
+    border: 1px solid #ccc;
+    /* Додаємо рамку */
+    transition: border-color 0.3s;
+    /* Додаємо анімацію для рамки при наведенні */
+}
+
+.inputs1:focus {
+    outline: none;
+    /* Видаляємо обводку при фокусуванні (для більш кращого вигляду) */
+    border-color: #4285f4;
+    /* Змінюємо колір рамки при фокусуванні */
+}
+
+.buttons1 {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 5px 5px 0px;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons1:hover {
+    background-color: #357ae8;
+}
+
+#feelingLuckyButton {
+    background-color: rgb(81, 0, 231);
+}
+
+#feelingLuckyButton:hover {
+    background-color: rgb(214, 51, 255);
+}
+
+
+.centerblockbottom {
+
+
+    width: 400px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.centerblocktop {
+
+
+    width: 500px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.centerblocktop2 {
+
+
+    width: 800px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.img2 {
+    width: 320px;
+    margin-top: 100px;
+    margin-left: 210px;
+    /* right: 40px; */
+    display: block;
+}
